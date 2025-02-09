@@ -7,7 +7,7 @@
       "price": 1499.99,
       "isAvailable": true,
       "releaseDate": "2023-06-12",
-      "imageUrl": "https://example.com/images/mountain-master.jpg",
+      "imageUrl": "https://raw.githubusercontent.com/Abdulkuddus2000/json-objects/refs/heads/main/DALL%C2%B7E%202025-02-09%2014.58.29%20-%20A%20rugged%20mountain%20bike%20designed%20for%20extreme%20trails%20and%20off-road%20adventures.%20The%20bike%20has%20a%20durable%20aluminum%20frame%2C%20hydraulic%20disc%20brakes%2C%2029-inch%20whee.webp",
       "category": "Mountain bike",
       "status": "available",
       "features": ["Aluminum frame", "Hydraulic disc brakes", "29-inch wheels", "Front suspension"],

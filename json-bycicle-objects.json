@@ -188,6 +188,24 @@
         "country": "UK",
         "founded": 2002,
         "logoUrl": "https://example.com/images/urbanbike-logo.jpg"
+      },
+      {
+      "id": 11,
+      "name": "Urban Race",
+      "description": "A fast, responsive bike for competitions.",
+      "price": 2100.00,
+      "isAvailable": true,
+      "releaseDate": "2023-05-05",
+      "imageUrl": "https://example.com/images/urban-race.jpg",
+      "category": "City bike",
+      "status": "available",
+      "features": ["Aluminum frame", "Shimano gear system", "Quick-release wheels", "Comfort grips"],
+      "manufacturer": {
+        "id": 210,
+        "name": "UrbanBike",
+        "country": "UK",
+        "founded": 2002,
+        "logoUrl": "https://example.com/images/urbanbike-logo.jpg"
       }
     }
   ]

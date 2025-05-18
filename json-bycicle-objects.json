@@ -1,213 +1,268 @@
 {
-  "bicycles": [
-    {
-      "id": 1,
-      "name": "Mountain Master 2000",
-      "description": "A rugged mountain bike designed for extreme trails and off-road adventures.",
-      "price": 1499.99,
-      "isAvailable": true,
-      "releaseDate": "2023-06-12",
-      "imageUrl": "https://raw.githubusercontent.com/Abdulkuddus2000/json-objects/refs/heads/main/DALL%C2%B7E%202025-02-09%2014.58.29%20-%20A%20rugged%20mountain%20bike%20designed%20for%20extreme%20trails%20and%20off-road%20adventures.%20The%20bike%20has%20a%20durable%20aluminum%20frame%2C%20hydraulic%20disc%20brakes%2C%2029-inch%20whee.webp",
-      "category": "Mountain bike",
-      "status": "available",
-      "features": ["Aluminum frame", "Hydraulic disc brakes", "29-inch wheels", "Front suspension"],
-      "manufacturer": {
-        "id": 201,
-        "name": "TrailBlaze",
-        "country": "USA",
-        "founded": 1990,
-        "logoUrl": "https://example.com/images/trailblaze-logo.jpg"
-      }
-    },
-    {
-      "id": 2,
-      "name": "City Glide Pro",
-      "description": "A lightweight city bike ideal for commuting and urban cycling.",
-      "price": 799.00,
-      "isAvailable": true,
-      "releaseDate": "2022-03-25",
-      "imageUrl": "https://example.com/images/city-glide.jpg",
-      "category": "City bike",
-      "status": "available",
-      "features": ["Steel frame", "Shimano gear system", "Comfort saddle", "Reflective tires"],
-      "manufacturer": {
-        "id": 202,
-        "name": "UrbanCycles",
-        "country": "Germany",
-        "founded": 1985,
-        "logoUrl": "https://example.com/images/urbancycles-logo.jpg"
-      }
-    },
-    {
-      "id": 3,
-      "name": "Speedster X1",
-      "description": "A high-performance road bike for competitive riders and enthusiasts.",
-      "price": 2999.00,
-      "isAvailable": true,
-      "releaseDate": "2021-08-10",
-      "imageUrl": "https://example.com/images/speedster-x1.jpg",
-      "category": "Road bike",
-      "status": "available",
-      "features": ["Carbon fiber frame", "Shimano Ultegra groupset", "Aero handlebars", "700c wheels"],
-      "manufacturer": {
-        "id": 203,
-        "name": "EliteCycle",
-        "country": "Italy",
-        "founded": 1920,
-        "logoUrl": "https://example.com/images/elitecycle-logo.jpg"
-      }
-    },
-    {
-      "id": 4,
-      "name": "TurboX Electric",
-      "description": "A stylish electric bike with a powerful motor for an effortless ride.",
-      "price": 1999.99,
-      "isAvailable": true,
-      "releaseDate": "2022-09-05",
-      "imageUrl": "https://example.com/images/turbox-electric.jpg",
-      "category": "E-bike",
-      "status": "available",
-      "features": ["Lithium battery", "500W motor", "LCD display", "Hydraulic disc brakes"],
-      "manufacturer": {
-        "id": 204,
-        "name": "VoltCycles",
-        "country": "Netherlands",
-        "founded": 2005,
-        "logoUrl": "https://example.com/images/voltcyles-logo.jpg"
-      }
-    },
-    {
-      "id": 5,
-      "name": "Cruiser Deluxe",
-      "description": "A comfortable cruiser bike perfect for relaxed rides along the beach or park.",
-      "price": 699.00,
-      "isAvailable": true,
-      "releaseDate": "2020-05-15",
-      "imageUrl": "https://example.com/images/cruiser-deluxe.jpg",
-      "category": "Cruiser bike",
-      "status": "available",
-      "features": ["Chrome frame", "Single speed", "Large cushioned seat", "Retro style handlebars"],
-      "manufacturer": {
-        "id": 205,
-        "name": "BeachRider",
-        "country": "USA",
-        "founded": 2010,
-        "logoUrl": "https://example.com/images/beachrider-logo.jpg"
-      }
-    },
-    {
-      "id": 6,
-      "name": "TourMaster 300",
-      "description": "A versatile touring bike designed for long-distance rides and loaded with features.",
-      "price": 1599.99,
-      "isAvailable": false,
-      "releaseDate": "2019-11-20",
-      "imageUrl": "https://example.com/images/tourmaster-300.jpg",
-      "category": "Touring bike",
-      "status": "out of stock",
-      "features": ["Steel frame", "Racks for luggage", "Wide tires", "Comfortable saddle"],
-      "manufacturer": {
-        "id": 206,
-        "name": "EnduroCycles",
-        "country": "Canada",
-        "founded": 1997,
-        "logoUrl": "https://example.com/images/endurocycles-logo.jpg"
-      }
-    },
-    {
-      "id": 7,
-      "name": "Xtreme Downhill Pro",
-      "description": "A heavy-duty downhill bike built for extreme mountain descents.",
-      "price": 3499.00,
-      "isAvailable": true,
-      "releaseDate": "2022-02-10",
-      "imageUrl": "https://example.com/images/xtreme-downhill.jpg",
-      "category": "Downhill bike",
-      "status": "available",
-      "features": ["Full suspension", "Hydraulic brakes", "20-inch wheels", "Reinforced frame"],
-      "manufacturer": {
-        "id": 207,
-        "name": "PeakRider",
-        "country": "New Zealand",
-        "founded": 1980,
-        "logoUrl": "https://example.com/images/peakrider-logo.jpg"
-      }
-    },
-    {
-      "id": 8,
-      "name": "CityZoom",
-      "description": "An efficient and affordable city bike for short-distance commuting.",
-      "price": 499.00,
-      "isAvailable": true,
-      "releaseDate": "2023-01-18",
-      "imageUrl": "https://example.com/images/cityzoom.jpg",
-      "category": "City bike",
-      "status": "available",
-      "features": ["Lightweight frame", "Single gear", "Comfortable seat", "Fenders"],
-      "manufacturer": {
-        "id": 208,
-        "name": "ZoomBikes",
-        "country": "Germany",
-        "founded": 2015,
-        "logoUrl": "https://example.com/images/zoombikes-logo.jpg"
-      }
-    },
-    {
-      "id": 9,
-      "name": "Speedster Pro",
-      "description": "A top-tier road bike designed for racing and high-speed performance.",
-      "price": 3999.00,
-      "isAvailable": true,
-      "releaseDate": "2022-07-01",
-      "imageUrl": "https://example.com/images/speedster-pro.jpg",
-      "category": "Road bike",
-      "status": "available",
-      "features": ["Carbon frame", "Shimano Dura-Ace", "700c wheels", "Ultralight design"],
-      "manufacturer": {
-        "id": 209,
-        "name": "RaceTech",
-        "country": "France",
-        "founded": 1990,
-        "logoUrl": "https://example.com/images/racetech-logo.jpg"
-      }
-    },
-    {
-      "id": 10,
-      "name": "Urban Sprint",
-      "description": "A fast, responsive bike for quick city commuting and short trips.",
-      "price": 1099.00,
-      "isAvailable": true,
-      "releaseDate": "2023-04-08",
-      "imageUrl": "https://example.com/images/urban-sprint.jpg",
-      "category": "City bike",
-      "status": "available",
-      "features": ["Aluminum frame", "Shimano gear system", "Quick-release wheels", "Comfort grips"],
-      "manufacturer": {
-        "id": 210,
-        "name": "UrbanBike",
-        "country": "UK",
-        "founded": 2002,
-        "logoUrl": "https://example.com/images/urbanbike-logo.jpg"
-      }
-      },
-      {
-      "id": 11,
-      "name": "Urban Race",
-      "description": "A fast, responsive bike for competitions.",
-      "price": 2100.00,
-      "isAvailable": true,
-      "releaseDate": "2023-05-05",
-      "imageUrl": "https://example.com/images/urban-race.jpg",
-      "category": "City bike",
-      "status": "available",
-      "features": ["Aluminum frame", "Shimano gear system", "Quick-release wheels", "Comfort grips"],
-      "manufacturer": {
-        "id": 210,
-        "name": "UrbanBike",
-        "country": "UK",
-        "founded": 2002,
-        "logoUrl": "https://example.com/images/urbanbike-logo.jpg"
-      }
-    }
-  ]
+    "bicycles": [
+        {
+            "id": 1,
+            "name": "Mountain Master 2000",
+            "description": "A rugged mountain bike designed for extreme trails and off-road adventures.",
+            "price": 1499.99,
+            "isAvailable": true,
+            "releaseDate": "2023-06-12",
+            "imageUrl": "https://raw.githubusercontent.com/Abdulkuddus2000/json-objects/refs/heads/main/DALL%C2%B7E%202025-02-09%2014.58.29%20-%20A%20rugged%20mountain%20bike%20designed%20for%20extreme%20trails%20and%20off-road%20adventures.%20The%20bike%20has%20a%20durable%20aluminum%20frame%2C%20hydraulic%20disc%20brakes%2C%2029-inch%20whee.webp",
+            "category": "Mountain bike",
+            "status": "available",
+            "features": [
+                "Aluminum frame",
+                "Hydraulic disc brakes",
+                "29-inch wheels",
+                "Front suspension"
+            ],
+            "manufacturer": {
+                "id": 201,
+                "name": "TrailBlaze",
+                "country": "USA",
+                "founded": 1990,
+                "logoUrl": "https://example.com/images/trailblaze-logo.jpg"
+            }
+        },
+        {
+            "id": 2,
+            "name": "City Glide Pro",
+            "description": "A lightweight city bike ideal for commuting and urban cycling.",
+            "price": 799,
+            "isAvailable": true,
+            "releaseDate": "2022-03-25",
+            "imageUrl": "https://example.com/images/city-glide.jpg",
+            "category": "City bike",
+            "status": "available",
+            "features": [
+                "Steel frame",
+                "Shimano gear system",
+                "Comfort saddle",
+                "Reflective tires"
+            ],
+            "manufacturer": {
+                "id": 202,
+                "name": "UrbanCycles",
+                "country": "Germany",
+                "founded": 1985,
+                "logoUrl": "https://example.com/images/urbancycles-logo.jpg"
+            }
+        },
+        {
+            "id": 3,
+            "name": "Speedster X1",
+            "description": "A high-performance road bike for competitive riders and enthusiasts.",
+            "price": 2999,
+            "isAvailable": true,
+            "releaseDate": "2021-08-10",
+            "imageUrl": "https://example.com/images/speedster-x1.jpg",
+            "category": "Road bike",
+            "status": "available",
+            "features": [
+                "Carbon fiber frame",
+                "Shimano Ultegra groupset",
+                "Aero handlebars",
+                "700c wheels"
+            ],
+            "manufacturer": {
+                "id": 203,
+                "name": "EliteCycle",
+                "country": "Italy",
+                "founded": 1920,
+                "logoUrl": "https://example.com/images/elitecycle-logo.jpg"
+            }
+        },
+        {
+            "id": 4,
+            "name": "TurboX Electric",
+            "description": "A stylish electric bike with a powerful motor for an effortless ride.",
+            "price": 1999.99,
+            "isAvailable": true,
+            "releaseDate": "2022-09-05",
+            "imageUrl": "https://example.com/images/turbox-electric.jpg",
+            "category": "E-bike",
+            "status": "available",
+            "features": [
+                "Lithium battery",
+                "500W motor",
+                "LCD display",
+                "Hydraulic disc brakes"
+            ],
+            "manufacturer": {
+                "id": 204,
+                "name": "VoltCycles",
+                "country": "Netherlands",
+                "founded": 2005,
+                "logoUrl": "https://example.com/images/voltcyles-logo.jpg"
+            }
+        },
+        {
+            "id": 5,
+            "name": "Cruiser Deluxe",
+            "description": "A comfortable cruiser bike perfect for relaxed rides along the beach or park.",
+            "price": 699,
+            "isAvailable": true,
+            "releaseDate": "2020-05-15",
+            "imageUrl": "https://example.com/images/cruiser-deluxe.jpg",
+            "category": "Cruiser bike",
+            "status": "available",
+            "features": [
+                "Chrome frame",
+                "Single speed",
+                "Large cushioned seat",
+                "Retro style handlebars"
+            ],
+            "manufacturer": {
+                "id": 205,
+                "name": "BeachRider",
+                "country": "USA",
+                "founded": 2010,
+                "logoUrl": "https://example.com/images/beachrider-logo.jpg"
+            }
+        },
+        {
+            "id": 6,
+            "name": "TourMaster 300",
+            "description": "A versatile touring bike designed for long-distance rides and loaded with features.",
+            "price": 1599.99,
+            "isAvailable": false,
+            "releaseDate": "2019-11-20",
+            "imageUrl": "https://example.com/images/tourmaster-300.jpg",
+            "category": "Touring bike",
+            "status": "out of stock",
+            "features": [
+                "Steel frame",
+                "Racks for luggage",
+                "Wide tires",
+                "Comfortable saddle"
+            ],
+            "manufacturer": {
+                "id": 206,
+                "name": "EnduroCycles",
+                "country": "Canada",
+                "founded": 1997,
+                "logoUrl": "https://example.com/images/endurocycles-logo.jpg"
+            }
+        },
+        {
+            "id": 7,
+            "name": "Xtreme Downhill Pro",
+            "description": "A heavy-duty downhill bike built for extreme mountain descents.",
+            "price": 3499,
+            "isAvailable": true,
+            "releaseDate": "2022-02-10",
+            "imageUrl": "https://example.com/images/xtreme-downhill.jpg",
+            "category": "Downhill bike",
+            "status": "available",
+            "features": [
+                "Full suspension",
+                "Hydraulic brakes",
+                "20-inch wheels",
+                "Reinforced frame"
+            ],
+            "manufacturer": {
+                "id": 207,
+                "name": "PeakRider",
+                "country": "New Zealand",
+                "founded": 1980,
+                "logoUrl": "https://example.com/images/peakrider-logo.jpg"
+            }
+        },
+        {
+            "id": 8,
+            "name": "CityZoom",
+            "description": "An efficient and affordable city bike for short-distance commuting.",
+            "price": 499,
+            "isAvailable": true,
+            "releaseDate": "2023-01-18",
+            "imageUrl": "https://example.com/images/cityzoom.jpg",
+            "category": "City bike",
+            "status": "available",
+            "features": [
+                "Lightweight frame",
+                "Single gear",
+                "Comfortable seat",
+                "Fenders"
+            ],
+            "manufacturer": {
+                "id": 208,
+                "name": "ZoomBikes",
+                "country": "Germany",
+                "founded": 2015,
+                "logoUrl": "https://example.com/images/zoombikes-logo.jpg"
+            }
+        },
+        {
+            "id": 9,
+            "name": "Speedster Pro",
+            "description": "A top-tier road bike designed for racing and high-speed performance.",
+            "price": 3999,
+            "isAvailable": true,
+            "releaseDate": "2022-07-01",
+            "imageUrl": "https://example.com/images/speedster-pro.jpg",
+            "category": "Road bike",
+            "status": "available",
+            "features": [
+                "Carbon frame",
+                "Shimano Dura-Ace",
+                "700c wheels",
+                "Ultralight design"
+            ],
+            "manufacturer": {
+                "id": 209,
+                "name": "RaceTech",
+                "country": "France",
+                "founded": 1990,
+                "logoUrl": "https://example.com/images/racetech-logo.jpg"
+            }
+        },
+        {
+            "id": 10,
+            "name": "Urban Sprint",
+            "description": "A fast, responsive bike for quick city commuting and short trips.",
+            "price": 1099,
+            "isAvailable": true,
+            "releaseDate": "2023-04-08",
+            "imageUrl": "https://example.com/images/urban-sprint.jpg",
+            "category": "City bike",
+            "status": "available",
+            "features": [
+                "Aluminum frame",
+                "Shimano gear system",
+                "Quick-release wheels",
+                "Comfort grips"
+            ],
+            "manufacturer": {
+                "id": 210,
+                "name": "UrbanBike",
+                "country": "UK",
+                "founded": 2002,
+                "logoUrl": "https://example.com/images/urbanbike-logo.jpg"
+            }
+        },
+        {
+            "id": 11,
+            "name": "Urban Race",
+            "description": "A fast, responsive bike for competitions.",
+            "price": 2100,
+            "isAvailable": true,
+            "releaseDate": "2023-05-05",
+            "imageUrl": "https://example.com/images/urban-race.jpg",
+            "category": "City bike",
+            "status": "available",
+            "features": [
+                "Aluminum frame",
+                "Shimano gear system",
+                "Quick-release wheels",
+                "Comfort grips"
+            ],
+            "manufacturer": {
+                "id": 210,
+                "name": "UrbanBike",
+                "country": "UK",
+                "founded": 2002,
+                "logoUrl": "https://example.com/images/urbanbike-logo.jpg"
+            }
+        }
+    ]
 }
